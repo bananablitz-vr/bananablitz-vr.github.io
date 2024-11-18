@@ -1,0 +1,30 @@
+nav, footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #462e0e;
+    color: #ffffff;
+}
+
+#nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+#nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#nav-links li {
+    list-style: none;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
